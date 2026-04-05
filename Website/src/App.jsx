@@ -1,4 +1,3 @@
-import './App.css'
 import Header from './components/Header.jsx'
 
 import Hero from './components/Hero'
@@ -10,6 +9,7 @@ import ServicesPage from './pages/ServicesPage'
 import ServiceDetail from './pages/ServiceDetail'
 
 import { Routes, Route } from 'react-router-dom'
+import BeforeAfter from './components/BeforeAfter.jsx'
 
 function App() {
   return (
@@ -24,6 +24,7 @@ function App() {
           element={
             <>
               <Hero />
+              <BeforeAfter />
               <About />
               <Contact />
             </>
