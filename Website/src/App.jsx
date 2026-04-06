@@ -1,15 +1,16 @@
-import Header from './components/Header.jsx'
-
+import './index.css'
+import Header from './components/Header'
 import Hero from './components/Hero'
-import About from './components/About.jsx'
+import About from './components/About'
 import Contact from './components/Contact'
+import BeforeAfter from './components/BeforeAfter'
+import Footer from './components/Footer'
 
 // pages
 import ServicesPage from './pages/ServicesPage'
 import ServiceDetail from './pages/ServiceDetail'
 
 import { Routes, Route } from 'react-router-dom'
-import BeforeAfter from './components/BeforeAfter.jsx'
 
 function App() {
   return (
@@ -17,7 +18,6 @@ function App() {
       <Header />
 
       <Routes>
-        
         {/* STARTSIDA */}
         <Route
           path="/"
@@ -36,8 +36,9 @@ function App() {
 
         {/* SPECIFIK TJÄNST */}
         <Route path="/tjanster/:serviceName" element={<ServiceDetail />} />
-
       </Routes>
+
+      <Footer />
     </>
   )
 }
