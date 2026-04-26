@@ -1,6 +1,6 @@
 import teslaBefore from "../assets/images/Tesla-Before.png";
 import teslaAfter from "../assets/images/Tesla-After.png";
-import dekorFöre from "../assets/images/Skåpbil-Före.png";
+import dekorFöre from "../assets/images/Skåpbil-före.png";
 import dekorEfter from "../assets/images/Skåpbil-Efter.png";
 import solfilmFöre from "../assets/images/Solfilm-Före.png";
 import solfilmEfter from "../assets/images/Solfilm-Efter.png";
